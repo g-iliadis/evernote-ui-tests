@@ -1,0 +1,20 @@
+{
+  "name": "bdd-playwright",
+  "version": "1.0.0",
+  "description": "BDD-style testing with Playwright and Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.53.1",
+    "playwright": "^1.53.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "dotenv": "^16.5.0"
+  }
+}
