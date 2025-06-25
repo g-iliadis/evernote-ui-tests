@@ -37,3 +37,11 @@ npx playwright install
 npx cucumber-js
 ```
 
+You will need also in the root folder to add a .env file providing
+your login details.
+
+```bash
+TEST_USER_EMAIL=
+TEST_USER_PASSWORD=
+TEST_USER_NAME=
+```
